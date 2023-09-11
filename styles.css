@@ -6,6 +6,12 @@
   list-style: none;
   font-family: 'Be Vietnam Pro', sans-serif;
 }
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .logo_nav {
   width: 150px;
 }
@@ -18,25 +24,13 @@
   border-radius: 3px;
   padding-block: 4px;
   padding-inline: 8px;
-  -webkit-box-shadow: 0px 13px 25px -10px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 13px 25px -10px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 13px 25px -10px rgba(0, 0, 0, 0.75);
-  border-radius: 5px;
-  padding-block: 3px;
-  padding-inline: 15px;
-  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .padel-intro {
   display: flex;
-  margin-top: 7%;
+gap: 10%;
   flex-direction: row;
-  padding: 20px;
   justify-content: space-around;
   align-items: center;
-  gap: 6em;
-  padding-inline: 6%;
 }
 .padel-content {
   display: flex;
@@ -74,9 +68,9 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 20px;
   align-items: center;
-  padding-inline: 2%;
+  padding-inline: 3%;
 }
 .button-style {
   background-color: #1877f2;
@@ -101,6 +95,35 @@ header {
 .button-style p {
   color: white !important;
 }
+.slider{
+  overflow-x: scroll;
+  max-width: 150%;
+  padding: 20px;
+  border: 3px solid #007bff;
+  border-radius: 20px;
+}
+.slider::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra de desplazamiento */
+  height: 12px;
+  z-index: 99;
+  border-radius: 5px; /* Hacer que la barra de desplazamiento sea redondeada */
+}
+
+/* Estilo de la barra de desplazamiento cuando está en modo normal (no se está desplazando) */
+.slider::-webkit-scrollbar-thumb {
+  background-color: #007bff; /* Color del fondo de la barra de desplazamiento */
+  border-radius: 5px; /* Hacer que el pulgar de la barra de desplazamiento sea redondeado */
+}
+
+/* Estilo de la barra de desplazamiento cuando se está desplazando */
+.slider::-webkit-scrollbar-thumb:hover {
+  background-color: white; /* Cambiar el color cuando se pasa el cursor por encima */
+}
+.slider-content{
+  display: flex;
+  gap: 3em;
+  padding-inline-end: 30px;
+}
 
 .middle-sec {
   color: white;
@@ -120,4 +143,10 @@ header {
   font-size: 0.8em;
   font-weight: 300;
   line-height: 20px;
+}
+
+@media (max-width: 800px){
+  .padel-intro{
+    flex-direction: column;
+  }
 }
