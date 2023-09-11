@@ -18,19 +18,9 @@
   border-radius: 3px;
   padding-block: 4px;
   padding-inline: 8px;
-  -webkit-box-shadow: 0px 13px 25px -10px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 13px 25px -10px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 13px 25px -10px rgba(0, 0, 0, 0.75);
-  border-radius: 5px;
-  padding-block: 3px;
-  padding-inline: 15px;
-  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .padel-intro {
   display: flex;
-  margin-top: 7%;
   flex-direction: row;
   padding: 20px;
   justify-content: space-around;
@@ -58,16 +48,16 @@
 .padelImage {
   object-fit: cover;
   width: 400px;
-  animation: mover 4s ease-in-out infinite;
+  /*  animation: mover 4s ease-in-out infinite; */
   object-fit: cover;
 }
 @keyframes mover {
   0%,
   100% {
-    transform: translateY(0); /* Comienza y termina en la posición original */
+    transform: translateY(0);
   }
   50% {
-    transform: translateY(20px); /* Mueve hacia abajo */
+    transform: translateY(20px);
   }
 }
 header {
@@ -103,21 +93,16 @@ header {
 }
 
 .middle-sec {
+  background-color: #3cddf3;
   color: white;
   display: flex;
   flex-direction: column;
   gap: 2.3em;
-  padding-block: 40px;
+  padding-block: 52px;
   padding-inline: 23px;
-  margin-block: 10px;
 }
 .middle-sec h2 {
   font-size: 2em;
   font-weight: 500;
   letter-spacing: -1px;
-}
-.middle-sec p {
-  font-size: 0.8em;
-  font-weight: 300;
-  line-height: 20px;
 }
