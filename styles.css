@@ -21,6 +21,7 @@ body {
 .nav h2 {
   color: #1967b3;
   font-size: 50px;
+  font-weight: 600;
   border-radius: 3px;
   padding-block: 4px;
   padding-inline: 8px;
@@ -76,9 +77,9 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 0px;
   align-items: center;
-  padding-inline: 3%;
+  padding-inline: 1%;
 }
 .button-style {
   background-color: #1967b3;
@@ -148,7 +149,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 2.3em;
-  padding-block: 40px;
+  padding-block: 0px;
   padding-inline: 23px;
 }
 .middle-sec h2 {
@@ -156,10 +157,8 @@ header {
   font-weight: 500;
   letter-spacing: -1px;
 }
-.middle-sec p {
-  font-size: 0.8em;
-  font-weight: 300;
-  line-height: 20px;
+.middle-sec img {
+  width: 140px;
 }
 
 @media (max-width: 800px) {
