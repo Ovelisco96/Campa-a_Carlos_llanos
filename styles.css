@@ -161,6 +161,10 @@ header {
   width: 140px;
 }
 
+.min-text {
+  font-size: 20px;
+}
+
 @media (max-width: 800px) {
   .padel-intro {
     flex-direction: column;
