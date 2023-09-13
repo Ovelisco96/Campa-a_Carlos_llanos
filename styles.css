@@ -348,7 +348,7 @@ header {
     display: none !important;
   }
   .qr_img {
-    width: 0px;
+    width: 90px !important;
   }
   .pp {
     font-size: 10px;
