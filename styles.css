@@ -348,14 +348,14 @@ header {
     width: 100px;
   }
   .min-text {
-    font-size: 8px;
+    font-size: 10px;
     margin: 2px 0;
   }
   .container_social {
     display: flex;
   }
   .container_social i {
-    font-size: 10px;
+    font-size: 15px;
   }
   .qr {
     display: none !important;
@@ -364,7 +364,7 @@ header {
     width: 60px !important;
   }
   .logo_footer {
-    width: 60px !important;
+    width: 70px !important;
   }
   .logo_mari {
     width: 70px !important;
