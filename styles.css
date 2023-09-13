@@ -338,10 +338,6 @@ header {
   .logo_nav {
     width: 100px;
   }
-  .middle-sec img {
-    width: 100px;
-    /* align-self: flex-start !important; */
-  }
   .min-text {
     font-size: 15px;
   }
@@ -350,6 +346,9 @@ header {
   }
   .qr {
     display: none !important;
+  }
+  .qr_img {
+    width: 0px;
   }
   .pp {
     font-size: 10px;
