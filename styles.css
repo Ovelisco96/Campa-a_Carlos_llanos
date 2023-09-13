@@ -18,14 +18,14 @@ body {
 .logo_aico {
   width: 100px;
 }
-.nav h2 {
+/* .nav h2 {
   color: #1967b3;
   font-size: 50px;
   font-weight: 600;
   border-radius: 3px;
   padding-block: 4px;
   padding-inline: 8px;
-}
+} */
 .padel-intro {
   display: flex;
   flex-direction: row;
@@ -35,11 +35,11 @@ body {
 }
 .padel-content {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  text-align: end;
+  flex-direction: row;
+  align-items: center;
+  /*  text-align: end;
   width: 100%;
-  gap: 10px;
+  gap: 10px; */
 }
 
 .Row {
@@ -165,8 +165,181 @@ header {
   font-size: 20px;
 }
 
-@media (max-width: 800px) {
+@media (min-width: 992px) {
   .padel-intro {
     flex-direction: column;
+  }
+  .middle-sec {
+    background-color: #035089;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2.3em;
+    padding-block: 0px;
+    padding-inline: 23px;
+  }
+  .padel-content {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+
+  .carru {
+    margin-top: 2rem;
+    width: 550px;
+    border-radius: 0.25rem !important;
+    padding: 1rem !important;
+    margin-left: 1.5rem !important;
+    border: 1px solid #035089 !important;
+  }
+  .padelImage {
+    width: 250px;
+  }
+  .title {
+    color: #035089;
+  }
+  .p-4 {
+    width: 280px !important;
+
+    padding: 20px !important;
+  }
+  .logo_nav {
+    width: 100px;
+  }
+  .middle-sec img {
+    width: 100px;
+    /* align-self: flex-start !important; */
+  }
+  .min-text {
+    font-size: 15px;
+  }
+  .container_social {
+    display: flex;
+  }
+  .qr {
+  }
+  .pp {
+    font-size: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .padel-intro {
+    flex-direction: column;
+  }
+  .middle-sec {
+    background-color: #035089;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2.3em;
+    padding-block: 0px;
+    padding-inline: 23px;
+  }
+  .padel-content {
+    margin-top: 2rem;
+  }
+  .padel-content {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+
+  .carru {
+    margin-top: 2rem;
+    width: 550px;
+    border-radius: 0.25rem !important;
+    padding: 1rem !important;
+    margin-left: 1.5rem !important;
+    border: 1px solid #035089 !important;
+  }
+  .padelImage {
+    width: 250px;
+  }
+  .title {
+    color: #035089;
+  }
+  .p-4 {
+    width: 280px !important;
+
+    padding: 20px !important;
+  }
+  .logo_nav {
+    width: 100px;
+  }
+  .middle-sec img {
+    width: 100px;
+    /* align-self: flex-start !important; */
+  }
+  .min-text {
+    font-size: 15px;
+  }
+  .container_social {
+    display: flex;
+  }
+  .qr {
+  }
+  .pp {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .padel-intro {
+    flex-direction: column;
+  }
+  .carru {
+    margin-top: 2rem;
+    width: 350px;
+    border-radius: 0.25rem !important;
+    padding: 1rem !important;
+    margin-left: 1.5rem !important;
+    border: 1px solid #035089 !important;
+  }
+  .middle-sec {
+    background-color: #035089;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2.3em;
+    padding-block: 0px;
+    padding-inline: 23px;
+  }
+  .padel-content {
+    margin-top: 2rem;
+  }
+  .padel-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .padelImage {
+    width: 220px;
+  }
+  .title {
+    color: #035089;
+  }
+  .p-4 {
+    width: 280px !important;
+
+    padding: 20px !important;
+  }
+  .logo_nav {
+    width: 100px;
+  }
+  .middle-sec img {
+    width: 100px;
+    /* align-self: flex-start !important; */
+  }
+  .min-text {
+    font-size: 15px;
+  }
+  .container_social {
+    display: flex;
+  }
+  .qr {
+    display: none !important;
+  }
+  .pp {
+    font-size: 10px;
   }
 }
