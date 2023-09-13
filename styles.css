@@ -167,6 +167,9 @@ header {
   .padel-intro {
     flex-direction: column !important;
   }
+  header {
+    padding: 1.5rem;
+  }
   .middle-sec {
     background-color: #035089;
     color: white;
@@ -231,6 +234,9 @@ header {
 @media (max-width: 768px) {
   .padel-intro {
     flex-direction: column;
+  }
+  header {
+    padding: 1.5rem;
   }
   .middle-sec {
     background-color: #035089;
@@ -300,6 +306,9 @@ header {
   .padel-intro {
     flex-direction: column;
   }
+  header {
+    padding: 1rem;
+  }
   .carru {
     width: 85vw;
     border-radius: 0.25rem !important;
@@ -314,8 +323,8 @@ header {
     flex-direction: column;
     gap: 2.3em;
     width: 100vw;
-    padding-block: 0px;
-    padding-inline: 23px;
+    padding-block: 5px;
+    padding-inline: 10px;
   }
   .padel-content {
     margin-top: 2rem;
@@ -339,19 +348,30 @@ header {
     width: 100px;
   }
   .min-text {
-    font-size: 15px;
+    font-size: 8px;
+    margin: 2px 0;
   }
   .container_social {
     display: flex;
+  }
+  .container_social i {
+    font-size: 10px;
   }
   .qr {
     display: none !important;
   }
   .qr_img {
-    width: 90px !important;
+    width: 60px !important;
+  }
+  .logo_footer {
+    width: 60px !important;
+  }
+  .logo_mari {
+    width: 70px !important;
   }
   .pp {
-    font-size: 10px;
+    font-size: 7px;
+    text-align: center;
   }
   .boton {
     display: flex;
